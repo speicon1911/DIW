@@ -1,5 +1,3 @@
-/* Estilo para cabecera */
-
 body {
     background-color: #475e82;
 }
@@ -11,7 +9,6 @@ nav {
 
 a, p, h1, h2, h3, b {
     color: #c1cfe8;
-
 }
 
 a, p, b {
@@ -22,9 +19,7 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Pacifico', cursive;
 }
 
@@ -34,11 +29,14 @@ h3 {
     margin-bottom: 5px;
 }
 
+.material-symbols-outlined{
+    color: #c1cfe8;
+}
+
 li {
     list-style: none;
     display: inline;
     margin-right: 20px;
-
 }
 
 #banner img {
@@ -65,11 +63,9 @@ header img {
     margin-left: 20px
 }
 
-/* Estilos para el contenido main */
 #inicio {
     display: flex;
-    gap: 100px;
-    /* espacio entre cada columna*/
+    gap: 100px; /* espacio entre cada columna*/
     justify-content: center;
 }
 
@@ -82,7 +78,6 @@ header img {
 #inicio .item img {
     width: 100%;
     height: auto;
-
 }
 
 #inicio .item h2,
@@ -106,7 +101,6 @@ header img {
     margin-left: 80px;
 }
 
-/* Estilos para el pie de página */
 #footer {
     display: flex;
     background-color: #7296D1;
@@ -139,3 +133,15 @@ header img {
     margin-left: 200px;
     margin-top: 20px;
 }
+
+button {
+    background-color: #c1cfe8;
+    border-color: #c1cfe8;
+    cursor: pointer;
+    align-items: end;
+}
+a.boton{
+    color: black;
+}
+
+
