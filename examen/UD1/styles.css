@@ -1,84 +1,104 @@
 body {
     background-color: #fffdf3ff;
 }
+
 .logotipo {
     text-align: center;
 }
+
 .logotipo img {
     width: 100px;
 }
+
 .menuCabecera {
     width: 40%;
     text-align: start;
     float: left;
     display: block;
 }
+
 .icons {
     width: 60%;
     text-align: end;
     float: left;
     color: #0a4627ff;
 }
+
 .menu {
     background-color: #91adaeff;
 }
+
 .menu li {
     display: inline;
 }
+
 .main-section {
     display: inline;
     float: left;
 }
+
 .main-img {
     display: block;
     width: 50%;
     float: left;
     text-align: center;
+
     img {
         width: 100%;
     }
 }
+
 .main-text {
     float: left;
     width: 50%;
     display: block;
     float: right;
     text-align: center;
+
     p {
         text-align: start;
     }
 }
+
 .sendero {
     display: block;
     width: 100%;
     text-align: start;
     float: right;
 }
+
 .section-img {
     display: block;
     width: 100%;
     text-align: center;
     float: right;
+
     img {
         width: 100%;
     }
 }
+
 footer {
     display: block;
     width: 100%;
     text-align: center;
     float: right;
 }
-a,p {
+
+a,
+p {
     font-family: Comfortaa;
     text-decoration: none;
 }
-A:hover{
+
+A:hover {
     color: #af7e4dff;
 }
+
 button {
     background-color: #af7e4dff;
 }
+
 button:hover {
     background-color: #91adaeff;
 }
